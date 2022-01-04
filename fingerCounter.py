@@ -12,7 +12,7 @@ while True :
 
 	fingerCount = 0
 	for hand in handPositions : 
-		if hand[4][1] < hand[5][1] - 10 : 
+		if hand[4][1] < hand[5][1] : 
 			fingerCount += 1
 		if hand[8][1] < hand[6][1] : 
 			fingerCount += 1
