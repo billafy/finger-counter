@@ -1,3 +1,4 @@
 mediapipe==0.8.9.1
 
 opencv-contrib-python==4.5.4.60
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
